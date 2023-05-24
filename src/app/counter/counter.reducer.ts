@@ -9,3 +9,8 @@ export const counterReducer = createReducer(
   on(decrement, (state) => state - 1),
   on(reset, (state) => 0)
 );
+
+/*
+handles changes in the counter based on the actions in counter.actions.ts
+needs to be imported into app module
+*/
